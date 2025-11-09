@@ -4,7 +4,7 @@
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
 
-(setq explicit-shell-file-name "/bin/zsh")
+(setq explicit-shell-file-name "/bin/bash")
 
 (global-display-line-numbers-mode t)
 
