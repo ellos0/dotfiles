@@ -7,6 +7,4 @@ alias ls="ls -A --color=auto"
 alias gitls="git status"
 alias python="python3"
 
-export PATH="/Applications/Racket/bin:$PATH"
-
 [ -f "~/.ghcup/env" ] && . "~/.ghcup/env" # ghcup-env
