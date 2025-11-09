@@ -2,7 +2,7 @@ alias macld='ld -lSystem -syslibroot $(xcrun --sdk macosx --show-sdk-path) -e _m
 alias lclhst="python3 /Volumes/BIG/code/web_stuff/host.py"
 alias ll="ls -l"
 alias arm64="clang -o"
-alias p="cd /Users/elliottmcgibbon/Documents/code"
+alias p="cd ~/Documents/code"
 alias umacs="exec ~/Documents/uemacs/em"
 alias pls="sudo"
 alias ls="ls -A --color=auto"
