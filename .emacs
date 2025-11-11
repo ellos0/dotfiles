@@ -29,7 +29,8 @@
 (pixel-scroll-precision-mode)
 
 ;; Set the main font
-(set-frame-font "Monaco 18" nil t)  ; choose your poison
+;; (set-frame-font "Monaco 18" nil t) mac default
+(set-frame-font "Monospace 18" nil t)
 
 (require 'package)
 (package-initialize)
