@@ -3,8 +3,8 @@ alias ll="ls -l"
 alias arm64="clang -o"
 alias p="cd ~/Documents/code"
 alias umacs="exec ~/Documents/uemacs/em"
-alias ls="ls -A --color=auto"
+alias ls="ls -A --color=auto --color"
 alias gitls="git status"
 alias python="python3"
 
-[ -f "~/.ghcup/env" ] && . "~/.ghcup/env" # ghcup-env
+export PATH="$HOME/.ghcup/bin:$PATH"
