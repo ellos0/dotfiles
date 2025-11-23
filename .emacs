@@ -1,6 +1,7 @@
 (setq custom-file "~/.emacs.d/emacs-custom.el")
 (load custom-file)
 
+(setq make-backup-files nil)
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
 
@@ -29,11 +30,15 @@
 (pixel-scroll-precision-mode)
 
 ;; Set the main font
-;; (set-frame-font "Monaco 18" nil t) mac default
-(set-frame-font "Monospace 18" nil t)
+(set-frame-font "Monaco 14" nil t)  ; choose your poison
+
+;;slime-mode
+(setq inferior-lisp-program "sbcl")
 
 (require 'package)
 (package-initialize)
+
+;;basic editor things
 
 (use-package vertico
   :ensure t
@@ -72,3 +77,7 @@
 (use-package vundo
   :config
   (setq vundo-glyph-alist vundo-unicode-symbols))
+
+;;language specifics
+
+(use-package haskell-mode)
