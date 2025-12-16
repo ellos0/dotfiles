@@ -4,3 +4,4 @@ all:
 	cp ./.zshrc ~/.zshrc
 	cp ./.bashrc ~/.bash_profile
 	cp ./.bashrc ~/.bashrc
+	cp ./niriconfig ~/.config/niri/config.kdl 
