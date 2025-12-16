@@ -7,4 +7,5 @@ alias ls="ls -A --color=auto --color"
 alias gitls="git status"
 alias python="python3"
 
+export EDITOR="vim"
 export PATH="$HOME/.ghcup/bin:$PATH"
