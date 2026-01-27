@@ -1,0 +1,5 @@
+wallpaper="/home/ellos/Documents/wallpaper"
+
+feh --bg-scale ${wallpaper}
+
+~/.config/polybar/launch
