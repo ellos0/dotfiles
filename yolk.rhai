@@ -1,7 +1,7 @@
 const themes = #{
 	babysfirst: #{
 		//lower = further back layer
-		color1: "#0000ff",
+		color1: "#000000",
 		color2: "#ffffff",
 	}
 };
@@ -16,12 +16,12 @@ export let eggs = #{
 		templates: ["menu.xml"],
 		enabled: true,
 	},
-	emacs: #{
-		targets: "~/.emacs",
+	bash: #{
+		targets: "~/.config/bash",
 		enabled: true,
 	},
-	bash: #{
-		targets: "~/.bashrc",
+	emacs: #{
+		targets: "~/emacs",
 		enabled: true,
 	},
 };
