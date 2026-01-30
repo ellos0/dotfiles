@@ -1,5 +1,3 @@
 wallpaper="~/Documents/wallpaper"
 
 feh --bg-scale ${wallpaper}
-
-~/.config/polybar/launch
