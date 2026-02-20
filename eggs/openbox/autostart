@@ -1,3 +1,2 @@
-wallpaper="~/Documents/wallpaper"
 
-feh --bg-scale ${wallpaper}
+feh --bg-scale ~/Documents/wallpaper
