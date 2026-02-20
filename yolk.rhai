@@ -21,7 +21,12 @@ export let eggs = #{
 		enabled: true,
 	},
 	emacs: #{
-		targets: "~/emacs",
+		targets: "~",
+		strategy: "merge",
+		enabled: true,
+	},
+	eww: #{
+		targets: "~/.config/eww",
 		enabled: true,
 	},
 };
