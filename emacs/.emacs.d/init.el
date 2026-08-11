@@ -77,8 +77,3 @@
 (use-package wakatime-mode
   :config
   (global-wakatime-mode 1))
-
-(use-package dashboard
-  :ensure t
-  :config
-  (dashboard-setup-startup-hook))
